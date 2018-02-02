@@ -1,0 +1,9 @@
+{
+    "presets": [
+        "env","react"
+    ],
+    "compact":"false",
+    "plugins": [
+        ["transform-object-rest-spread", { "useBuiltIns": true }]
+    ]
+}
