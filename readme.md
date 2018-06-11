@@ -1,6 +1,7 @@
 # 数据容器 
     * MVVM架构 Model（数据）+View（视图）+ViewModel（桥梁）*
     特点：
+    
         1.数据驱动视图 defineProperty+模板编译
             new Vue({
                 data:{
@@ -12,6 +13,7 @@
                     }
                 }
             })
+
         2.组件化（渐进式增量）
             组件传值：
                 a. props(属性传值)
